@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   proxmox-mcp-api:
-    build: .
+    image: sernafa/proxmox-mcp-plus:latest
     ports:
       - "8811:8811"
     volumes:
